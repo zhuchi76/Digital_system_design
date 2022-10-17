@@ -26,26 +26,31 @@ input X, CLK, CLR;
 output reg D, B;
 reg [2:0] State;
 initial begin State = 0; end
-always @(posedge CLK)
+always @(posedge CLK or negedge CLR)
 begin
-    case(State)
-        0: State <= 1;
-        1: begin
-           if(X == 1'b0)
-                State <= 2;
-           else
-                State <= 3;
-           end
-        2: begin
-           if(X == 1'b0)
-                State <= 4;
-           else
-                State <= 5;
-           end
-        3: State <= 5;
-        4: State <= 0;
-        5: State <= 0;       
-    endcase  
+    if(~CLR) begin
+        State <= 0;
+    end
+    else begin
+        case(State)
+            0: State <= 1;
+            1: begin
+               if(X == 1'b0)
+                    State <= 2;
+               else
+                    State <= 3;
+               end
+            2: begin
+               if(X == 1'b0)
+                    State <= 4;
+               else
+                    State <= 5;
+               end
+            3: State <= 5;
+            4: State <= 0;
+            5: State <= 0;       
+        endcase  
+    end
 end
 
 always @(posedge CLK or negedge CLR)
