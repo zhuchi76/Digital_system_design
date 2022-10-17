@@ -32,12 +32,12 @@ end
 always @(posedge CLK or negedge CLR)
 begin
     if(~CLR) begin
-        Q <= 0;
-        QN <= 1;
+        Q = 1'b0;
+        QN = 1'b1;
     end
     else begin
-        Q <= D;
-        QN <= ~D;
+        Q = D;
+        QN = ~D;
     end
 end
 endmodule

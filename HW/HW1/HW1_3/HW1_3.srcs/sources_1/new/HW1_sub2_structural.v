@@ -49,7 +49,7 @@ nand ND11(A11, Q2, Q0, X);
 nand ND12(A12, A6, A7, A8, A9, A10, A11);
 and AND_D(D, A12, CLR);
 
-nand ND13(A13, Q2, Q0N, XN);
+and ND13(A13, Q2, Q0N, XN);
 and AND_B(B, A13, CLR);
 
 endmodule
