@@ -1,0 +1,22 @@
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/110down/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto e27e2e72b1e741b688a46e07eb2e3707 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot t_HW1_comb_behav xil_defaultlib.t_HW1_comb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_dataflow.v" Line 1. Module HW1_comb_dataflow doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_gatelevel.v" Line 1. Module HW1_comb_gatelevel doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_hf_gatelevel.v" Line 1. Module HW1_comb_hf_gatelevel doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_dataflow.v" Line 1. Module HW1_comb_dataflow doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_gatelevel.v" Line 1. Module HW1_comb_gatelevel doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_hf_gatelevel.v" Line 1. Module HW1_comb_hf_gatelevel doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HW1_comb_dataflow
+Compiling module xil_defaultlib.HW1_comb_gatelevel
+Compiling module xil_defaultlib.HW1_comb_hf_gatelevel
+Compiling module xil_defaultlib.t_HW1_comb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot t_HW1_comb_behav

@@ -1,0 +1,10 @@
+0.7
+v2020.3.0
+Apr  7 2021
+05:52:48
+D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.sim/sim_1/behav/xsim/glbl.v,1617756343,verilog,,,,glbl,,,,,,,,
+D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sim_1/imports/HW1_1/t_HW1_comb.v,1665924972,verilog,,,,t_HW1_comb,,,,,,,,
+D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sim_1/new/testbench.v,1665808111,verilog,,,,testbench,,,,,,,,
+D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_dataflow.v,1665808612,verilog,,D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_gatelevel.v,,HW1_comb_dataflow,,,,,,,,
+D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_gatelevel.v,1665808459,verilog,,D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_hf_gatelevel.v,,HW1_comb_gatelevel,,,,,,,,
+D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_hf_gatelevel.v,1665808306,verilog,,D:/111up/Digital_system_design/HW/HW1/HW1_1/HW1_1.srcs/sim_1/imports/HW1_1/t_HW1_comb.v,,HW1_comb_hf_gatelevel,,,,,,,,

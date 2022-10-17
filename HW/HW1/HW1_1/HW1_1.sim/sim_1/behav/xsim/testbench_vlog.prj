@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_dataflow.v" \
+"../../../../HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_gatelevel.v" \
+"../../../../HW1_1.srcs/sources_1/imports/HW1_1/HW1_comb_hf_gatelevel.v" \
+"../../../../HW1_1.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/111up/Digital_system_design/HW/HW1/HW1_2/HW1_2.srcs/sources_1/new/HW1_delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HW1_delay
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/111up/Digital_system_design/HW/HW1/HW1_2/HW1_2.srcs/sim_1/new/t_HW1_delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_HW1_delay
