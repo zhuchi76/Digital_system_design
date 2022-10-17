@@ -33,28 +33,28 @@ end
 always @(posedge CLK or negedge CLR)
 begin
     if(~CLR) begin
-        Q2 <= 1'b0;
-        Q1 <= 1'b0;
-        Q0 <= 1'b0;
+        Q2 = 1'b0;
+        Q1 = 1'b0;
+        Q0 = 1'b0;
     end
     else begin
-        Q2 <= Q1;
-        Q1 <= ~Q2 && ~Q1 && Q0;
-        Q0 <= (~Q2 && ~Q1 && ~Q0) || (~Q2 && X) || (Q1 && Q0); 
+        Q2 = Q1;
+        Q1 = ~Q2 && ~Q1 && Q0;
+        Q0 = (~Q2 && ~Q1 && ~Q0) || (~Q2 && X) || (Q1 && Q0); 
     end
 end
 
 always @(posedge CLK or negedge CLR)
 begin
     if(~CLR) begin
-        D <= 0;
-        B <= 0;
+        D = 0;
+        B = 0;
     end
     else begin
-        D <= (~Q2 && ~Q1 && ~Q0 && X) || (~Q2 && ~Q1 && Q0 && ~X) || 
+        D = (~Q2 && ~Q1 && ~Q0 && X) || (~Q2 && ~Q1 && Q0 && ~X) || 
              (Q1 && ~Q0 && ~X) || (Q2 && ~Q0 && ~X) || 
              (Q1 && Q0 && X) || (Q2 && Q0 && X);
-        B <= Q2 && ~Q0 && ~X;
+        B = Q2 && ~Q0 && ~X;
     end
 end
 endmodule

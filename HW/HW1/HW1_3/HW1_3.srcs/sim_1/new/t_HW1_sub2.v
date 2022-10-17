@@ -19,8 +19,41 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+module t_HW1_sub2();
+reg X, CLK, CLR;
+reg [31:0] X_req;
+integer i;
+wire D1_3_a, D1_3_b, D1_3_c, B1_3_a, B1_3_b, B1_3_c;
 
-module t_HW1_sub2(
+HW1_sub2_behavioral hw1_3_a(.D(D1_3_a), .B(B1_3_a), .X(X), .CLK(CLK), .CLR(CLR));
+HW1_sub2_dataflow hw1_3_b(.D(D1_3_b), .B(B1_3_b), .X(X), .CLK(CLK), .CLR(CLR));
+HW1_sub2_structural hw1_3_c(.D(D1_3_c), .B(B1_3_c), .X(X), .CLK(CLK), .CLR(CLR));
 
-    );
+initial begin
+    X = 1'b0;
+    
+    X_req[30:0] = {1'b0, 1'b0, 1'b1, 
+    1'b0, 1'b0, 1'b0, 1'b0, 
+    1'b1, 1'b1, 1'b0, 1'b1, 
+    1'b1, 1'b1, 1'b0, 1'b0, 
+    1'b0, 1'b0, 1'b1, 1'b0, 
+    1'b0, 1'b0, 1'b0, 1'b0, 
+    1'b0, 1'b0, 1'b0, 1'b0, 
+    1'b0, 1'b0, 1'b0, 1'b0};
+    
+    CLK = 1'b0;
+    CLR = 1'b1;
+    
+end
+
+always begin
+    for(i = 30; i >= 0; i = i-1)
+    begin
+        #25;
+        X = X_req[i];    
+    end
+end
+
+always #50 CLK = ~CLK;
+
 endmodule
