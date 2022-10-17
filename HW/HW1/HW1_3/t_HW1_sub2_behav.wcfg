@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="t_HW1_sub2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="t_HW1_sub2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="89.583 ns"></ZoomStartTime>
+      <ZoomEndTime time="705.084 ns"></ZoomEndTime>
+      <Cursor1Time time="602.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/t_HW1_sub2/X" type="logic">
+      <obj_property name="ElementShortName">X</obj_property>
+      <obj_property name="ObjectShortName">X</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t_HW1_sub2/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t_HW1_sub2/CLR" type="logic">
+      <obj_property name="ElementShortName">CLR</obj_property>
+      <obj_property name="ObjectShortName">CLR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t_HW1_sub2/D1_3_a" type="logic">
+      <obj_property name="ElementShortName">D1_3_a</obj_property>
+      <obj_property name="ObjectShortName">D1_3_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t_HW1_sub2/B1_3_a" type="logic">
+      <obj_property name="ElementShortName">B1_3_a</obj_property>
+      <obj_property name="ObjectShortName">B1_3_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t_HW1_sub2/D1_3_b" type="logic">
+      <obj_property name="ElementShortName">D1_3_b</obj_property>
+      <obj_property name="ObjectShortName">D1_3_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t_HW1_sub2/B1_3_b" type="logic">
+      <obj_property name="ElementShortName">B1_3_b</obj_property>
+      <obj_property name="ObjectShortName">B1_3_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t_HW1_sub2/D1_3_c" type="logic">
+      <obj_property name="ElementShortName">D1_3_c</obj_property>
+      <obj_property name="ObjectShortName">D1_3_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t_HW1_sub2/B1_3_c" type="logic">
+      <obj_property name="ElementShortName">B1_3_c</obj_property>
+      <obj_property name="ObjectShortName">B1_3_c</obj_property>
+   </wvobject>
+</wave_config>

@@ -30,7 +30,7 @@ HW1_sub2_dataflow hw1_3_b(.D(D1_3_b), .B(B1_3_b), .X(X), .CLK(CLK), .CLR(CLR));
 HW1_sub2_structural hw1_3_c(.D(D1_3_c), .B(B1_3_c), .X(X), .CLK(CLK), .CLR(CLR));
 
 initial begin
-    X = 1'b0;
+    X = 1'b1;
     
     X_req[30:0] = {1'b0, 1'b0, 1'b1, 
     1'b0, 1'b0, 1'b0, 1'b0, 

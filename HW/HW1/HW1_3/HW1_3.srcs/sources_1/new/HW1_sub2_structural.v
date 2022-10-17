@@ -40,6 +40,8 @@ D_ff FF0(.D(A4), .CLK(CLK), .CLR(CLR), .Q(Q0), .QN(Q0N));
 D_ff FF1(.D(A5), .CLK(CLK), .CLR(CLR), .Q(Q1), .QN(Q1N));
 D_ff FF2(.D(Q1), .CLK(CLK), .CLR(CLR), .Q(Q2), .QN(Q2N));
 
+//D_ff FF0(.D({Q1, A5, A4}), .CLK(CLK), .CLR(CLR), .Q({Q2, Q1, Q0}), .QN({Q2N, Q1N, Q0N}));
+
 nand ND6(A6, Q2N, Q1N, Q0N, X);
 nand ND7(A7, Q2N, Q1N, Q0, XN);
 nand ND8(A8, Q1, Q0N, XN);
