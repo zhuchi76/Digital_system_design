@@ -32,9 +32,16 @@ end
 
 always @(posedge CLK or negedge CLR)
 begin
-    Q2 <= Q1;
-    Q1 <= ~Q2 && ~Q1 && Q0;
-    Q0 <= (~Q2 && ~Q1 && ~Q0) || (~Q2 && X) || (Q1 && Q0); 
+    if(~CLR) begin
+        Q2 <= 1'b0;
+        Q1 <= 1'b0;
+        Q0 <= 1'b0;
+    end
+    else begin
+        Q2 <= Q1;
+        Q1 <= ~Q2 && ~Q1 && Q0;
+        Q0 <= (~Q2 && ~Q1 && ~Q0) || (~Q2 && X) || (Q1 && Q0); 
+    end
 end
 
 always @(posedge CLK or negedge CLR)

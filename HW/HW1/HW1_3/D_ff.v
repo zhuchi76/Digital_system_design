@@ -32,8 +32,8 @@ end
 always @(posedge CLK or negedge CLR)
 begin
     if(~CLR) begin
-        Q <= Q;
-        QN <= QN;
+        Q <= 0;
+        QN <= 1;
     end
     else begin
         Q <= D;
