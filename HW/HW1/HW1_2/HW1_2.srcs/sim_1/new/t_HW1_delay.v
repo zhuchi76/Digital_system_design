@@ -50,4 +50,6 @@ module t_HW1_delay(
     
     end
     
+    initial #50 $finish;
+    
 endmodule

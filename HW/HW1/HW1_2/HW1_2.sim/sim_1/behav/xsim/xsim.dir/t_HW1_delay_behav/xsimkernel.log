@@ -1,7 +1,7 @@
-Running: xsim.dir/t_HW1_delay_behav/xsimk.exe -simmode gui -wdb t_HW1_delay_behav.wdb -simrunnum 0 -socket 57047
+Running: xsim.dir/t_HW1_delay_behav/xsimk.exe -simmode gui -wdb t_HW1_delay_behav.wdb -simrunnum 0 -socket 61664
 Design successfully loaded
-Design Loading Memory Usage: 6020 KB (Peak: 6020 KB)
-Design Loading CPU Usage: 61 ms
+Design Loading Memory Usage: 6016 KB (Peak: 6016 KB)
+Design Loading CPU Usage: 31 ms
 Simulation completed
-Simulation Memory Usage: 6560 KB (Peak: 6560 KB)
-Simulation CPU Usage: 61 ms
+Simulation Memory Usage: 6576 KB (Peak: 6576 KB)
+Simulation CPU Usage: 46 ms

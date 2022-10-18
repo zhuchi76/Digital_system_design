@@ -26,6 +26,7 @@ module HW1_delay(
     input A, B;
     output  C1, C2, C3, C4, C5;
     reg C1, C2, C3, C4;
+    wire C5;
     
     always @(A, B)
     begin
