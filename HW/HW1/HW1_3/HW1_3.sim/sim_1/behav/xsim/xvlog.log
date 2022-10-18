@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/111up/Digital_system_design/HW/HW1/HW1_3/HW1_3.srcs/sources_1/new/D_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/111up/Digital_system_design/HW/HW1/HW1_3/HW1_3.srcs/sources_1/new/HW1_sub2_behavioral.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HW1_sub2_behavioral
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/111up/Digital_system_design/HW/HW1/HW1_3/HW1_3.srcs/sources_1/new/HW1_sub2_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HW1_sub2_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/111up/Digital_system_design/HW/HW1/HW1_3/HW1_3.srcs/sources_1/new/HW1_sub2_structural.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HW1_sub2_structural
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/111up/Digital_system_design/HW/HW1/HW1_3/HW1_3.srcs/sim_1/new/t_HW1_sub2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_HW1_sub2
