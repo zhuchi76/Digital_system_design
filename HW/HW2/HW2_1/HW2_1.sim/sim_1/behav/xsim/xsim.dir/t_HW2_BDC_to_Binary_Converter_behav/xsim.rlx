@@ -1,0 +1,12 @@
+
+{ 
+    crc :  13184380245711830170  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 5387c0e375e94d09b0c54a981caf0c86 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot t_HW2_BDC_to_Binary_Converter_behav xil_defaultlib.t_HW2_BDC_to_Binary_Converter xil_defaultlib.glbl" , 
+    buildDate : "Apr  7 2021" , 
+    buildTime : "05:52:48" , 
+    linkCmd : "D:\\110down\\Vivado\\2020.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/t_HW2_BDC_to_Binary_Converter_behav/xsimk.exe\"   \"xsim.dir/t_HW2_BDC_to_Binary_Converter_behav/obj/xsim_0.win64.obj\" \"xsim.dir/t_HW2_BDC_to_Binary_Converter_behav/obj/xsim_1.win64.obj\" -L\"D:\\110down\\Vivado\\2020.3\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

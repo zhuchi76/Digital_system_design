@@ -1,0 +1,9 @@
+Vivado Simulator v2020.3.0
+Time resolution is 1 ps
+[$display] time = 215000, cycle comsuption = 0x22, BCD = 0x100001010111, Binary = 0x857
+
+[$display] time = 455000, cycle comsuption = 0x24, BCD = 0x100110011000, Binary = 0x998
+
+[$display] time = 615000, cycle comsuption = 0x16, BCD = 0x100001, Binary = 0x21
+
+$finish called at time : 650 ns : File "D:/111up/Digital_system_design/HW/HW2/HW2_1/HW2_1.srcs/sim_1/new/t_HW2_BDC_to_Binary_Converter.v" Line 63

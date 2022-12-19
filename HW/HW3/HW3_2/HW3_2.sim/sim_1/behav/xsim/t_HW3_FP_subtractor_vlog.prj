@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../HW3_2.srcs/sources_1/new/HW3_FP_subtractor.v" \
+"../../../../HW3_2.srcs/sim_1/new/t_HW3_FP_subtractor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

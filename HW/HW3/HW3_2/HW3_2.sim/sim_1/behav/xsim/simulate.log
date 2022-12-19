@@ -1,0 +1,23 @@
+Vivado Simulator v2020.3.0
+Time resolution is 1 ps
+[$display] time = 68000, cycle comsuption = 9, (1) th testcase, F1 = 0x1010000, E1 = 0x101, F2 = 0x1100000, E2 = 0x10, Fd = 0x1000100, Ed = 0x101
+
+[$display] time = 156000, cycle comsuption = 11, (2) th testcase, F1 = 0x1111100, E1 = 0x10, F2 = 0x1000010, E2 = 0x11, Fd = 0x11000000, Ed = 0x11111
+
+[$display] time = 220000, cycle comsuption = 8, (3) th testcase, F1 = 0x10110000, E1 = 0x110, F2 = 0x10101000, E2 = 0x1000, Fd = 0x1000100, Ed = 0x1000
+
+[$display] time = 284000, cycle comsuption = 8, (4) th testcase, F1 = 0x1110011, E1 = 0x1000, F2 = 0x10100000, E2 = 0x110, Fd = 0x10001011, Ed = 0x1000
+
+[$display] time = 348000, cycle comsuption = 8, (5) th testcase, F1 = 0x10010010, E1 = 0x11011, F2 = 0x1010000, E2 = 0x11001, Fd = 0x1111110, Ed = 0x11011
+
+[$display] time = 404000, cycle comsuption = 7, (6) th testcase, F1 = 0x1110011, E1 = 0x1111, F2 = 0x10011000, E2 = 0x1111, Fd = 0x10110110, Ed = 0x1110
+
+[$display] time = 476000, cycle comsuption = 9, (7) th testcase, F1 = 0x10001001, E1 = 0x1111, F2 = 0x1100000, E2 = 0x1100, Fd = 0x1111101, Ed = 0x1111
+
+[$display] time = 500000, cycle comsuption = 3, (8) th testcase, F1 = 0x1100010, E1 = 0x10011, F2 = 0x10011100, E2 = 0x11111, Fd = 0x10011100, Ed = 0x10011
+
+[$display] time = 548000, cycle comsuption = 6, (9) th testcase, F1 = 0x0, E1 = 0x10000, F2 = 0x10100111, E2 = 0x10110, Fd = 0x1011001, Ed = 0x10000
+
+[$display] time = 588000, cycle comsuption = 5, (10) th testcase, F1 = 0x1100000, E1 = 0x10010, F2 = 0x1100000, E2 = 0x10010, Fd = 0x0, Ed = 0x0
+
+$finish called at time : 600 ns : File "D:/111up/Digital_system_design/HW/HW3/HW3_2/HW3_2.srcs/sim_1/new/t_HW3_FP_subtractor.v" Line 74
