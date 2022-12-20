@@ -139,7 +139,7 @@ always @(posedge Clk) begin
         3: // check result for 0  
             begin
                 if(Fd == 0) begin
-                    Em <= 7'b0000000;
+                    Em <= 7'b1110001;
                     State <= 5;
                 end
                 else State <= 4;

@@ -18,6 +18,6 @@ Time resolution is 1 ps
 
 [$display] time = 548000, cycle comsuption = 6, (9) th testcase, F1 = 0x0, E1 = 0x10000, F2 = 0x10100111, E2 = 0x10110, Fd = 0x1011001, Ed = 0x10000
 
-[$display] time = 588000, cycle comsuption = 5, (10) th testcase, F1 = 0x1100000, E1 = 0x10010, F2 = 0x1100000, E2 = 0x10010, Fd = 0x0, Ed = 0x0
+[$display] time = 588000, cycle comsuption = 5, (10) th testcase, F1 = 0x1100000, E1 = 0x10010, F2 = 0x1100000, E2 = 0x10010, Fd = 0x0, Ed = 0x10001
 
 $finish called at time : 600 ns : File "D:/111up/Digital_system_design/HW/HW3/HW3_2/HW3_2.srcs/sim_1/new/t_HW3_FP_subtractor.v" Line 74
